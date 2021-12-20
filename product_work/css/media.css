@@ -1,0 +1,267 @@
+@media (max-width: 1000px) {
+  section {
+    margin-bottom: 90px;
+  }
+  .opportunities {
+    border-bottom-left-radius: 0%;
+    border-bottom-right-radius: 0%;
+  }
+  .opportunities__item-title {
+    font-size: 1.2rem;
+  }
+  .experts {
+      border-top-left-radius: 0%;
+      border-top-right-radius: 0%;
+  }
+  .experts__item {
+    width: 50%;
+    justify-content: flex-start;
+  }
+  .experts__img:nth-child(1) {
+    margin-right: 20px;
+  }
+  .experts__img:nth-child(2) {
+    margin-left: 20px;
+  }
+}
+
+@media (max-width: 950px) {
+  .support__content {
+    margin: 0;
+  }
+  .strategies__item-inner {
+    margin: 0 auto;
+    min-height: 320px;
+  }
+  .strategies__info {
+    font-size: 0.8rem;
+  }
+  .strategies__item-title {
+    font-size: 1.3rem;
+    line-height: 1.8rem;
+  }
+  .strategies .slick-dots {
+    margin-top: 2rem;
+  }
+}
+
+@media (max-width: 850px) {
+  html {
+    font-size: 14px;
+  }
+  header {
+    margin-bottom: 60px;
+  }
+  .logo__img {
+    max-width: 30px;
+    max-height: 30px;
+  }
+  .logo__title {
+    font-size: 1.7rem;
+  }
+  .menu__item {
+    padding: 0 0.5rem;
+  }
+  .sign-in,
+  .sign-up {
+    margin: 8px 5px;
+	  padding: 7px 15px;
+  }
+  /* experts */
+  .experts__item {
+    width: 100%;
+    justify-content: center;
+    padding-bottom: 20px;
+  }
+  .experts__item:nth-child(2) {
+    order: 10;
+  }
+  .experts__btn {
+    padding: 0.7rem 1.5rem;
+  }
+  .strategies__item-inner {
+    min-height: 300px;
+  }
+  .price__inner { 
+    flex-direction: column;
+    align-content: center;
+  }
+  .price__item {
+    width: 100%;
+    max-width: 320px;
+    margin-bottom: 30px;
+  }
+  /* join */
+  .join__title {
+    font-size: 1.5rem;
+    line-height: 2.3rem;
+  }
+  /* footer */
+  .footer__top {
+    flex-wrap: wrap;
+    justify-content: center;
+     /* flex-direction: column; */
+    
+  }
+  .footer__contacts {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .footer__logo {
+    margin: 0.5rem;
+  }
+  .social__link {
+    margin: 0.5rem 1rem 2rem;
+  }
+  .footer__resource,
+  .footer__staff {
+    width: 50%;
+    max-width: 200px;
+    margin-bottom: 30px;
+    padding-left: 4rem;
+  }
+  .footer__form {
+    width: 55%;
+    margin-bottom: 30px;
+  }
+}
+
+@media (max-width: 700px) {
+  section {
+    margin-bottom: 50px;
+  }
+  .header .logo__title {
+    display: none;
+  }
+  .logo__img {
+    margin-right: 10px;
+  }
+  .header__menu {
+    display: none;
+  }
+  .get-starter {
+    margin-right: 1.5rem;
+    padding: 0.7rem 1.5rem;
+  }
+  /* section opportunities */
+  .opportunities__item {
+    width: 45%;
+    margin-bottom: 20px;
+  }
+  .opportunities__icon {
+    margin-bottom: 10px;
+  }
+  .opportunities__item-title {
+    margin-bottom: 0.4rem;
+  }
+  /* section management */
+  .management__inner {
+    justify-content: center;
+  }
+  .management__content {
+    max-width: 100%;
+    padding-right: 0.5rem;
+  }
+  .management__img {
+    max-width: 65%;
+    padding-bottom: 3rem;
+    order: -1;
+  }
+  /* section  support*/
+  .support__inner {
+    justify-content: center;
+  }
+  .support__content {
+    max-width: 100%;
+    padding-left: 0px;
+  }
+  .support__img {
+    max-width: 65%;
+    padding-bottom: 3rem;
+  }
+  /* section collaborative */
+  .collaborative__inner {
+    justify-content: center;
+  }
+  .collaborative__content {
+    max-width: 100%;
+    padding-right: 0.5rem;
+  }
+  .collaborative__img {
+    max-width: 65%;
+    padding-bottom: 3rem;
+    order: -1;
+  }
+  .strategies__item-inner {
+    min-height: 280px;
+    margin: 0 auto;
+  }
+  /* reviews section */
+  .reviews__content {
+    flex-direction: column;
+    align-content: center;
+  }
+  .reviews__item {
+    width: 100%;
+    max-width: 330px;
+    margin-bottom: 30px;
+  }
+  /* join section */
+  .join__content {
+    padding: 2rem;
+  }
+  .join__title {
+    text-align: center;
+  }
+  .join__img {
+    display: none;
+  }
+  .join__btn-get {
+    display: block;
+    margin: 0 auto;
+  }
+}
+
+@media (max-width: 600px) {
+  .header__content {
+    max-width: 75%;
+    padding-right: 10px;
+  }
+  .header__img {
+    display: none;
+  }
+}
+
+@media (max-width: 430px) {
+  .header__content {
+    max-width: 100%;
+  }
+  .header__video-btn {
+    display: block;
+    margin-top: 20px;
+    padding-left: 10px;
+  }
+  .header__video-btn::before {
+    left: -1rem;
+  }
+  /* section opportunities */
+  .opportunities__item {
+    width: 90%;
+  }
+  /* section experts */
+  .experts__item {
+    padding-bottom: 40px;
+  }
+  /* footer section */
+
+  .footer__resource,
+  .footer__staff {
+    width: 100%;
+    padding-left: 0;
+  }
+  .footer__form {
+    width: 70%;
+  }
+}
