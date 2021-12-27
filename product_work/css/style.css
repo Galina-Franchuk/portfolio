@@ -15,6 +15,17 @@
 	padding: 0;
 }
 
+html {
+	font-size: 16px;
+	scroll-behavior: smooth;
+}
+body {
+	position: relative;
+	font-family: 'Poppins', sans-serif;
+	font-size: 16px;
+	background-color:#fff;
+	color:	var(--main-text-color);
+}
 h1,h2,h3,h4,h5,h6 {
 	margin: 0;
 	padding: 0;
@@ -23,16 +34,6 @@ h1,h2,h3,h4,h5,h6 {
 a {
 	text-decoration: none;
 	color: var(--main-text-color);
-}
-html {
-	font-size: 16px;
-}
-body {
-	position: relative;
-	font-family: 'Poppins', sans-serif;
-	font-size: 16px;
-	background-color:#fff;
-	color:	var(--main-text-color);
 }
 .header {
 	margin-bottom: 110px;
@@ -62,16 +63,12 @@ section {
 	min-height: 80px;
 	margin-bottom: 1.5rem;
 }
-.header__menu {
-	margin-left: auto;
-}
-
 .logo {
 	display: flex;
 	align-items: center;
 }
 .logo:hover .logo__title {
-	text-shadow: 0px 2px 8px rgba(0, 0, 0, 0.25);
+	text-shadow: 0px 2px 8px rgba(196, 132, 132, 0.25);
 }
 .logo__img {
 	max-width: 40px;
@@ -82,22 +79,27 @@ section {
 	font-size: 1.9rem;
 	line-height: 1.8rem;
 }
-.menu__list {
-	list-style: none;
+
+.burger-menu {
+	width: 43%;
+	margin-left: auto;
 }
-.menu__item {
-	display: inline-block;
-	padding: 0 1rem;
-	font-weight: 400;
-	line-height: 1.8rem;
+.burger-menu__nav {
+	display: flex;
+	justify-content: stretch;
+	width: 100%;
+	transition: all 0.5s;
 }
-.menu__link {
-	display: block;
+.burger-menu__link {
+	flex: 1 1 auto;
 	text-align: center;
 }
-.menu__active,
-.menu__link:hover {
+.burger-menu__active,
+.burger-menu__link:hover {
 	text-shadow: var(--main-text-color) 0px 0px 0.5px;
+}
+.burger-menu__btn {
+	display: none;
 }
 .btn {
 	font-size: 1rem;
