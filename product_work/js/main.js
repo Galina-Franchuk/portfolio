@@ -1,3 +1,4 @@
+//burger menu
 function burgerMenu(selector) {
   let menu = $(selector);
   let button = menu.find('.burger-menu__btn');
@@ -22,11 +23,21 @@ function burgerMenu(selector) {
     }
   }
 }
-
 burgerMenu('.burger-menu');
 
+// button up 
+let btnUp = document.querySelector('.btn-up');
+window.onscroll = function() {scrollFunction()};
 
+function scrollFunction() {
+  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+    btnUp.style.display = "block";
+  } else {
+    btnUp.style.display = "none";
+  }
+}
 
+//slider slick
 $(function(){
 	$('.strategies__content').slick({
     arrows: false,
